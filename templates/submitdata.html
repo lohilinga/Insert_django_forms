@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <table border="2px">
+        <tr>
+        <th>Sname</th>
+        <th>Sid</th>
+        <th>Semail</th>
+
+        </tr>
+
+       {% for SD in QSSO %}
+       <tr>
+        <td>{{SD.Sname}}</td>
+        <td>{{SD.Sid}}</td>
+        <td>{{SD.Semail}}</td>
+       </tr>
+
+       {% endfor %}
+
+    </table>
+
+</center>
+    
+  
+
+    
+    
+</body>
+</html>
